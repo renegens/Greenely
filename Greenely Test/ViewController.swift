@@ -12,6 +12,8 @@ class ViewController: UIViewController, UITableViewDelegate {
 
     @IBOutlet weak var tableView: UITableView!
     
+    //This is a the quick fix, another way would be to create a data class with objects and properties: name, viewers and image. 
+    //Then create an arrray of objects where there are stored. Although the implemented solution is a quick faster and has a little les memory usage.
     //setting up different arrays for each data type to access them globally at some point
     var JSONGameName: [String] = []
     var JSONViewers: [Int] = []
